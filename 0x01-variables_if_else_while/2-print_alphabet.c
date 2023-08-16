@@ -1,18 +1,21 @@
-#include <stdio.h> 
+#include <stdio.h>
+
 /**
- * main: entry-point
- * description: print all the alphabet litter 
- * return 0 always success
-*/
+ *main - Entry point
+ *
+ *description: print all alphabet letters
+ *
+ *return: always 0 (success)
+ */
 
 int main(void)
-
-	char ch = 'a';
-	while(ch < = 'z')
 {
-	putchar(ch);
-}
-	ch = ch + 1
-	putchar(\n);
-	return (0);
-}
+	char ch = 'a';
+
+	while (ch <= 'z')
+	{
+		putchar('\n');
+		ch++;
+	}
+		return (0);
+	}
