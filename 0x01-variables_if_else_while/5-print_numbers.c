@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+
+/**
+ *main - Entry point
+ *
+ *description: print numbers
+ *
+ *return: always 0 (success)
+ */
+
 int main(void)
 {
         int x = 0;
