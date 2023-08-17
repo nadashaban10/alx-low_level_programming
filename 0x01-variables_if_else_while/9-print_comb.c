@@ -4,7 +4,7 @@
 /**
  *main - Entry point
  *
- *description: print all alphabet letters
+ *description: print letters with ,
  *
  *return: always 0 (success)
  */
