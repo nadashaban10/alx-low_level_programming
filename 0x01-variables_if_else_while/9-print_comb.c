@@ -10,6 +10,7 @@
  */
 
 int main(void)
+
 {
     int x = 0;
     
@@ -20,7 +21,7 @@ int main(void)
                 x++;
                 
         
-        if (x != 9);
+        if(x != 9);
      {
          putchar (',');
          putchar (' ');
