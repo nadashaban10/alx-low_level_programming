@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 
 /**
 *_abs - absulote the sign value of  number.
@@ -8,7 +10,7 @@
 
 int _abs(int n)
 {
+	if (n < 0)
 	n = (-1) * n;
-	_putchar(n);
-	return (0);
+	return (n);
 }
