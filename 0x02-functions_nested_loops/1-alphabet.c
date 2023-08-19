@@ -1,20 +1,21 @@
-#include <main.h>
+#include "main.h"
+
+
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ *print_alphabet  - print the alphabet
+ *Return: digits number
  */
-        void print_alphabet(void);
 
-        {
-        int x = 'a';
+	void print_alphabet(void)
 
-        while (x <= 'z')
-        {
-        _putchar (x);
-        x++;
-        }
-        _putchar('\n');
-        return (0);
-        }
+	{
+	int x = 'a';
+
+	while (x <= 'z')
+	{
+	_putchar (x);
+	x++;
+	}
+	_putchar('\n');
+	}
