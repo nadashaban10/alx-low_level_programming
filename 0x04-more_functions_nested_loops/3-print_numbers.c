@@ -14,7 +14,6 @@ void print_numbers(void)
 	while (c <= 9)
 {
 	_putchar (c + 48);
-	_putchar('\n');
 	c++;
 }
 }
