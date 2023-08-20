@@ -11,9 +11,11 @@ void print_numbers(void)
 {
 	int c = 0;
 
+	_putchar (c);
 	while (c <= 9)
 {
 	_putchar (c + 48);
 	c++;
 }
+	_putchar ('\n');
 }
