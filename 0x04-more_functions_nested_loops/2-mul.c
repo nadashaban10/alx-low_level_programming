@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*add - add and sum two integers.
+*mul - multiplication function.
 *@a: first function parameter
 *@b: sec finction parameter
 *Return: the  result of a + b
