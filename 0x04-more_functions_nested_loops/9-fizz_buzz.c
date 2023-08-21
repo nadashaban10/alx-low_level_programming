@@ -2,12 +2,9 @@
 
 
 /**
-*main - print numbers from 0 to 100 followed by new line
-*when number of multiplies 3 is zero ,will print "fizz"
-*when number of multiplies 5 is zero , will print "buzz"
-* when both ( 5 and 3 ) is zero , will print "fizz buzz"
-*return: 0 always  (success)
-*/
+ * main - prints Buzz and fizz each numbers of 3 and 5.
+ * Return: Always 0.
+ */
 
 int main(void)
 {
@@ -15,6 +12,7 @@ int main(void)
 
 	for (num = 1; num <= 100; num++)
 	{
+	if (num != 1 && num != 100)
 	printf(" ");
 	if (num % 3 == 0)
 	printf("fizz");
