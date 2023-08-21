@@ -3,8 +3,10 @@
 
 /**
 *main - print numbers from 0 to 100 followed by new line
-*num: variable for loop
-*return: 0 (success)
+*when number of multiplies 3 is zero ,will print "fizz"
+*when number of multiplies 5 is zero , will print "buzz"
+* when both ( 5 and 3 ) is zero , will print "fizz buzz"
+*return: 0 always  (success)
 */
 
 int main(void)
@@ -20,8 +22,8 @@ int main(void)
 	printf("buzz");
 	else if (num % 3 == 0 && num % 5 == 0)
 	printf("fizzbuzz");
-	else 
-		printf("%d" ,num);
+	else
+	printf("%d", num);
 	}
 	printf("\n");
 	return (0);
