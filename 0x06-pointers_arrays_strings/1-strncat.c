@@ -18,9 +18,13 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[x])
 	x++;
 	for (y = 0; y < n && src[n] != '\0'; y++)
+
 	/* y<n instead of y= (n-1)*/
+
 	dest[x + y] = src[y];
+
 	/* b3d ma yzwad x ybda2 ywzd el y paa eli hya daymn <n */
+
 	dest[x + y] = '\0';
 	return (dest);
 }
