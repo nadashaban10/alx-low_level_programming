@@ -13,6 +13,7 @@ char *cap_string(char *s)
 	while (s[index] != '\0')
 	{
 	while (!(s[index] >= 'a' && s[index] <= 'z'))
+		index++;
 	if (s[index - 1] == ',' ||
 	s[index - 1] == ';' ||
 	s[index - 1] == '\n' ||
