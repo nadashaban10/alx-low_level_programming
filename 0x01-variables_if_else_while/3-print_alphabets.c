@@ -5,24 +5,24 @@
  *
  *description: print all alphabet letters
  *
- *return: always 0 (success)
+ *Return: always 0 (success)
  */
 
 int main(void)
 {
-        char ch = 'a';
-        char chr = 'A';
+	char ch = 'a';
+	char chr = 'A';
 
-        while (ch <= 'z')
-        {
-                putchar(ch);
-                ch++;
-        }
-        while (chr <='Z')
-        {
-            putchar(chr);
-            chr++;
-        }
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	while (chr <= 'Z')
+	{
+		putchar(chr);
+		chr++;
+	}
 	putchar('\n');
-                return (0);
-        }
+	return (0);
+}
