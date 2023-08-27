@@ -4,9 +4,9 @@
 
 
 /** 
- * main - entry point
- * description: print the value type of n	greater then/ is zero /less than
- * return : 0 (success)
+*main - entry point
+*description: program will assign a random number to the variable n
+*Return: 0 (success)
 */
 
 int main(void)

@@ -2,10 +2,8 @@
 
 /**
  *main - Entry point
- *
  *description: print all alphabet letters
- *
- *return: always 0 (success)
+ *Return: always 0 (success)
  */
 
 int main(void)
@@ -18,5 +16,5 @@ int main(void)
 		ch++;
 	}
 	putchar('\n');
-		return (0);
-	}
+	return (0);
+}
