@@ -6,19 +6,19 @@
  *
  *description: priint alphabet letters
  *
- *return: always 0 (success)
+ *Return: always 0 (success)
  */
 
 int main(void)
 {
-    char x = 'z';
-        
-        while (x >= 'a')
-        {
-                putchar(x);
-                x--;
-                
-        }
-        putchar('\n');
-                return (0);
-        }
+	char x = 'z';
+
+	while (x >= 'a')
+	{
+		putchar(x);
+		x--;
+
+	}
+	putchar('\n');
+	return (0);
+}
