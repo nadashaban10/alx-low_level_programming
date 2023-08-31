@@ -3,7 +3,7 @@
 #include "unistd.h"
 
 /**
- *_puts_recursion - funtcion print strings
+ *_print_rev_recursion - funtcion print strings
  *@s: input string
  */
 
