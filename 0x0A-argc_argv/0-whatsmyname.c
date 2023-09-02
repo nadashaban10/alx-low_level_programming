@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- *main - entry point program print
- *@argv : array string
- *@argc : count element
- *Return : (0)
- * */
+*main - program that prints its name, followed by a new line.
+*@argv: array string
+*@argc: count element
+*Return: 0
+*/
 
 int main(int argc, char *argv[])
 {
