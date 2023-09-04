@@ -27,7 +27,8 @@ char *str_concat(char *s1, char *s2)
 	/*Calculate the lengths of the two input strings*/
 	ln1 = strlen(s1);
 	ln2 = strlen(s2);
-	/** Allocate memory for the concatenated string
+	/**
+	 *Allocate memory for the concatenated string
 	 *including space(+1) for the null terminator
 	 */
 	result = (char *)malloc((ln1 + ln2 + 1) * sizeof(char));
