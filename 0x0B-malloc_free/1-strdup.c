@@ -27,7 +27,7 @@ char *_strdup(char *str)
 	 *adding +1 3shan n2flha b elterminition
 	 */
 	m = (char *) malloc((size_str + 1) * sizeof(char));
-	if (m != 0)
+	if (m != NULL)
 	{
 		/*using strcpy to copping str in m*/
 		strcpy(m, str);
