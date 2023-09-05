@@ -8,10 +8,6 @@
 *@str: string input
 *Return: *m or NULL
 */
-
-
-
-
 char *_strdup(char *str)
 {
 	int size_str;
