@@ -26,6 +26,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 
 	/* Initialize zero v to all in memory */
+	/*
+	 * also we can use loop to set 0 to all elements
+	 *for (i=0; i< nmemb * size; i++)
+	 *ptr[i]=0
+	 */
 	memset(ptr, 0, nmemb * size);
 
 	return (ptr);
