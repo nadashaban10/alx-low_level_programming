@@ -26,7 +26,7 @@ int *array_range(int min, int max)
 	{
 		return (NULL);
 	}
-	for (i = min; i <= max; i++)
+	for (i = 0; i < size; i++)
 	{
 		/* 3shan nhot paa value i in pointer */
 		ptr[i] = min + i;
