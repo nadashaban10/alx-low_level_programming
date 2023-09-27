@@ -14,7 +14,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	/*return null if memory failed*/
 	if (new == NULL)
 
-		return (NULL);	
+		return (NULL);
 	/*set the value of new node , provided value*/
 	new->n = n;
 	/* Set the next pointer of the new node to the current head of the list */
