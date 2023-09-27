@@ -13,7 +13,7 @@ void free_listint2(listint_t **head)
 	{
 		current =  (*head)->next; /* to avoid the refrence*/
 		free(*head);
-		*head = current;	
+		*head = current;
 	}
 	*head = NULL;
 }
