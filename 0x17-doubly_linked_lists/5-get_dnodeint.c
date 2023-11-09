@@ -1,31 +1,28 @@
 #include "lists.h"
-
-<<<<<<< HEAD
 /**
- * get_dnodeint_at_index - get node with index
-=======
-/*
- * get_dnodeint_at_index: get node with index
->>>>>>> 43bd807ae97282223f88109c598ce4b9bb9000ab
- *
- * @head: head of the list
- * @: index needed
- * Return: node of index
+ *get_dnodeint_at_index - get node
+ *@head: head of nodes
+ *index: index node
+ *Return: nodes
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
+
 {
-	dlistint_t *node = head;
+	dlistint_t *current = head;
 	unsigned int i = 0;
 
-<<<<<<< HEAD
-	while (node != NULL && i < index)
-=======
-	while (node != NULL && i < index) 
->>>>>>> 43bd807ae97282223f88109c598ce4b9bb9000ab
+	while (current != NULL && i < index) 
 	{
-		node = node->next;
+		current = current->next;
 		i++;
 	}
 
-	return (node);
+	if (i == index) 
+	{
+		return (current);
+	}
+	else 
+	{
+		return (NULL);
+	}
 }
