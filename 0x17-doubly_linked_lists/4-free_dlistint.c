@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
- *free_dlistint - free memory
- *head: haed of nodes
- *Return: values
- */ 
+ * free_dlistint - free memory
+ * head: haed of nodes
+ * Return: values
+ */
 void free_dlistint(dlistint_t *head)
 
 {
@@ -12,6 +12,7 @@ void free_dlistint(dlistint_t *head)
 	while (current != NULL)
 	{
 		dlistint_t *next = current->next;
+
 		free(current);
 		current = next;
 	}
