@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * free_dlistint - free memory
- * head: haed of nodes
+ * @head: haed of nodes
  * Return: values
  */
 void free_dlistint(dlistint_t *head)
